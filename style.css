@@ -396,15 +396,8 @@ button#abrir-carrinho:hover {
   display: block;
 }
 
-/* Estilos padrão para telas maiores (desktop first) */
-body {
-    font-size: 16px;
-    margin: 20px;
-    background-color: #f0f0f0;
-}
-
 .container {
-    width: 960px; /* Largura fixa para desktop */
+    width: 960px; 
     margin: 0 auto;
     padding: 20px;
     background-color: white;
