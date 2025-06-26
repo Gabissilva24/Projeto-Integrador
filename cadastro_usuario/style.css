@@ -65,52 +65,54 @@ body {
 }
 
 @media (max-width: 768px) {
-  body {
-    padding: 10px;
-  }
+    body {
+        padding: 10px;
+    }
 
-  .form-container {
-    margin: 20px 10px;
-    padding: 20px;
-    box-shadow: none;
-  }
+    .form-container {
+        margin: 20px 10px;
+        padding: 20px;
+        box-shadow: none;
+    }
 
-  .form-container h2 {
-    font-size: 1.5rem;
-  }
+    .form-container h2 {
+        font-size: 1.8rem;
+    }
 
-  .form-container input,
-  .form-container select {
-    font-size: 1rem;
-    padding: 8px;
-  }
+    .form-container label {
+        font-size: 1.4rem;
+    }
 
-  .form-container button {
-    font-size: 1rem;
-    padding: 10px;
-  }
+    .form-container input,
+    .form-container select {
+        font-size: 1.6rem;
+        padding: 12px;
+    }
 
-  .btn-voltar {
-    display: block;
-    width: fit-content;
-    margin: 10px auto 0 auto;
-    font-size: 0.95rem;
-    padding: 8px 12px;
-    text-align: center;
-  }
+    .form-container button {
+        font-size: 1.8rem;
+        padding: 12px;
+    }
+
+    .btn-voltar {
+        display: block;
+        width: fit-content;
+        margin: 10px auto 0 auto;
+        font-size: 1.6rem;
+        padding: 10px 15px;
+        text-align: center;
+    }
 }
 
 @media (max-width: 480px) {
-  .form-container {
-    padding: 15px;
-  }
-
-  .form-container h2 {
-    font-size: 1.3rem;
-  }
-
-  .btn-voltar {
-    font-size: 0.9rem;
-    padding: 6px 10px;
-  }
+    .form-container h2 {
+        font-size: 1.6rem;
+    }
+    .form-container input,
+    .form-container select,
+    .form-container button,
+    .btn-voltar {
+        font-size: 1.4rem;
+        padding: 10px;
+    }
 }

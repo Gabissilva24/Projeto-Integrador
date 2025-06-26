@@ -97,36 +97,58 @@ tr:hover {
 
 @media (max-width: 768px) {
     body {
-        font-size: 14px; 
-        margin: 10px;
-    }
-
-    .container {
-        width: 90%; 
-        padding: 15px;
-    }
-
-    .col-desktop-6 {
-        width: 100%; 
-        float: none; 
-        margin-bottom: 10px;
-    }
-}
-
-@media (max-width: 480px) {
-    body {
-        font-size: 12px;
+        padding: 10px;
     }
 
     h1 {
         font-size: 1.8em;
     }
 
-    nav ul {
-        flex-direction: column;
+    table {
+        font-size: 0.9em;
     }
-    nav li {
+
+    th, td {
+        padding: 8px;
+    }
+
+    .acoes button {
+        padding: 4px 8px;
+        font-size: 0.8em;
+    }
+
+    .btn-voltar {
+        margin: 10px;
+        padding: 8px 14px;
+        font-size: 0.9em;
+    }
+
+    .pagination a {
+        padding: 6px 10px;
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .acoes button {
+        display: block; 
         width: 100%;
+        margin-right: 0;
+        margin-bottom: 5px; 
+    }
+
+    .btn-voltar {
+        width: calc(100% - 20px); 
         text-align: center;
+    }
+
+    .pagination a {
+        margin: 0 2px;
+        padding: 6px 8px;
+        font-size: 0.8em;
     }
 }

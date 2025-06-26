@@ -65,3 +65,50 @@ th {
 .btn-voltar:hover {
   background-color: #995373;
 }
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    table {
+        font-size: 0.9em;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+
+    .acoes button {
+        padding: 4px 8px;
+        font-size: 0.8em;
+    }
+
+    .btn-voltar {
+        margin: 10px;
+        padding: 8px 14px;
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .acoes button {
+        display: block; 
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 5px; 
+    }
+
+    .btn-voltar {
+        width: calc(100% - 20px); 
+        text-align: center;
+    }
+}

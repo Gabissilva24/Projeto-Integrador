@@ -86,7 +86,7 @@ tr:hover {
 }
 
 .pagination a.active {
-    background-color: #e0b0d0; /* Mesma cor do cabeçalho */
+    background-color: #e0b0d0; 
     color: white;
     border-color: #e0b0d0;
 }
@@ -97,36 +97,72 @@ tr:hover {
 
 @media (max-width: 768px) {
     body {
-        font-size: 14px; 
-        margin: 10px;
+        padding: 10px;
     }
 
-    .container {
-        width: 90%; 
-        padding: 15px;
+    h1 {
+        font-size: 2.2rem;
+        margin-bottom: 15px;
     }
 
-    .col-desktop-6 {
-        width: 100%; 
-        float: none; 
-        margin-bottom: 10px;
+    table {
+        display: block; 
+        overflow-x: auto; 
+        white-space: nowrap; 
+        margin-bottom: 20px;
+        font-size: 1.4rem; 
+    }
+
+    th, td {
+        padding: 8px; 
+        font-size: 1.4rem;
+    }
+
+    .acoes button {
+        display: block; 
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 5px; 
+        font-size: 1.4rem;
+        padding: 8px;
+    }
+
+    .btn-voltar {
+        display: block;
+        width: fit-content;
+        margin: 10px auto 0 auto;
+        font-size: 1.6rem;
+        padding: 10px 15px;
+        text-align: center;
+    }
+
+    .pagination {
+        font-size: 1.4rem;
+    }
+
+    .pagination a {
+        padding: 6px 10px; 
+        margin: 0 3px;
     }
 }
 
 @media (max-width: 480px) {
-    body {
-        font-size: 12px;
-    }
-
     h1 {
-        font-size: 1.8em;
+        font-size: 2rem;
     }
-
-    nav ul {
-        flex-direction: column;
+    th, td {
+        font-size: 1.2rem; 
     }
-    nav li {
-        width: 100%;
-        text-align: center;
+    .acoes button {
+        font-size: 1.2rem;
+        padding: 6px;
+    }
+    .btn-voltar {
+        font-size: 1.4rem;
+        padding: 8px 12px;
+    }
+    .pagination a {
+        font-size: 1.2rem;
+        padding: 5px 8px;
     }
 }
