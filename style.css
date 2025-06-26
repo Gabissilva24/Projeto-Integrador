@@ -531,7 +531,6 @@ button#abrir-carrinho:hover {
 
 
 .navbar {
-
     position: absolute;
 
     top: 100%;
@@ -555,7 +554,7 @@ button#abrir-carrinho:hover {
     height: 0;
 
     overflow: hidden;
-
+    
     transition: clip-path 0.3s ease-out, height 0.3s ease-out;
 }
 
@@ -754,7 +753,7 @@ button#abrir-carrinho {
         font-size: 1.5rem;
     }
     .menu .box-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 2fr;
     }
     .menu .box-container .box img {
         height: 20rem;
