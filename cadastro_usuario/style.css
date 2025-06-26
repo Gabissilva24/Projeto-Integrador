@@ -65,37 +65,52 @@ body {
 }
 
 @media (max-width: 768px) {
-    body {
-        font-size: 14px; 
-        margin: 10px;
-    }
+  body {
+    padding: 10px;
+  }
 
-    .container {
-        width: 90%; 
-        padding: 15px;
-    }
+  .form-container {
+    margin: 20px 10px;
+    padding: 20px;
+    box-shadow: none;
+  }
 
-    .col-desktop-6 {
-        width: 100%; 
-        float: none; 
-        margin-bottom: 10px;
-    }
+  .form-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .form-container input,
+  .form-container select {
+    font-size: 1rem;
+    padding: 8px;
+  }
+
+  .form-container button {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .btn-voltar {
+    display: block;
+    width: fit-content;
+    margin: 10px auto 0 auto;
+    font-size: 0.95rem;
+    padding: 8px 12px;
+    text-align: center;
+  }
 }
 
 @media (max-width: 480px) {
-    body {
-        font-size: 12px;
-    }
+  .form-container {
+    padding: 15px;
+  }
 
-    h1 {
-        font-size: 1.8em;
-    }
+  .form-container h2 {
+    font-size: 1.3rem;
+  }
 
-    nav ul {
-        flex-direction: column;
-    }
-    nav li {
-        width: 100%;
-        text-align: center;
-    }
+  .btn-voltar {
+    font-size: 0.9rem;
+    padding: 6px 10px;
+  }
 }
